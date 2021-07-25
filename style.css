@@ -5,7 +5,7 @@ body, ul {
 }
 
 a {
-    color: black;
+    color: rgb(255, 254, 254);
     text-decoration: none;
     font-family: sans-serif;
 }
@@ -29,7 +29,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background: #111;
 }
 
 #menu {
@@ -37,6 +37,7 @@ a:hover {
     display: flex;
     list-style: none;
     gap: .5rem;
+    
         
 }
 
@@ -65,7 +66,7 @@ a:hover {
         width: 100%;
         top: 70px;
         right: 0px;
-        background: #e7e7e7;
+        background: #111;
         transition: .6s;
         z-index: 1000;
         height: 0px;
@@ -87,7 +88,7 @@ a:hover {
 
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0,0,0, .05);
+        border-bottom: 2px solid rgb(253, 242, 242);
     }
 
     #btn-mobile {
@@ -103,7 +104,7 @@ a:hover {
 
     #hamburger {
 
-        
+        color: #fffd;
         border-top: 2px solid;
         width: 20px;
 
@@ -117,7 +118,7 @@ a:hover {
         height: 2px;
         background: currentColor;
         margin-top: 5px;
-        transition: .3s;
+        transition: .5s;
         position: relative;
     }
 
